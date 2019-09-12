@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidDemo2</string>
+    <string name="label_profile">ENTER THE PROFILE NAME</string>
+</resources>

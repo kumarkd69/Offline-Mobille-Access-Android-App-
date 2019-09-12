@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        <TextView
+            android:text="ENTER THE REGISTERED EMAIL ID :"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:fontFamily="monospace"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="50dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/email"
+            android:layout_marginTop="20dip"
+            android:hint="Please Specify Email Id" />
+
+            <Button
+                android:text="SUBMIT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button2"
+                android:layout_marginTop="30dp"
+                style="@style/Widget.AppCompat.Button"
+                android:background="@color/colorAccent" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

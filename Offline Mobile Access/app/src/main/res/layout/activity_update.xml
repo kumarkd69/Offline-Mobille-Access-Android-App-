@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:text="ENTER THE OLD SECRET PIN :"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:fontFamily="monospace"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/oldpin"
+                android:layout_marginTop="20dip"
+                android:hint="Please Specify Old Secret Pin" />
+
+            <TextView
+                android:text="ENTER THE NEW SECRET PIN :"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:fontFamily="monospace"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="25dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/newpin"
+                android:layout_marginTop="20dip"
+                android:hint="Please Specify New Secret Pin" />
+
+            <TextView
+                android:text="CONFIRM THE NEW SECRET PIN :"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:fontFamily="monospace"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="25dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/confpin"
+                android:layout_marginTop="20dip"
+                android:hint="Please Confirm New Secret pin"
+                android:inputType="textPassword" />
+
+        <TextView
+            android:text="ENTER THE PROFILE NAME :"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:fontFamily="monospace"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="25dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/profilename"
+            android:layout_marginTop="20dip"
+            android:hint="Please Specify Profile Name" />
+
+
+        <TextView
+            android:text="ENTER THE EMAIL ID :"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:fontFamily="monospace"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="25dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/email"
+            android:layout_marginTop="20dip"
+            android:hint="Please Specify Email ID"
+            android:inputType="textEmailAddress" />
+
+
+        <TextView
+            android:text="ENTER THE CONTACT NO :"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:fontFamily="monospace"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="25dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/contact"
+            android:layout_marginTop="20dip"
+            android:hint="Please Specify Contact No"
+            android:inputType="phone" />
+
+        <TextView
+            android:text="ENTER THE ALTERNATE NUMBER 1:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:fontFamily="monospace"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="25dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/alt_contact1"
+            android:layout_marginTop="20dip"
+            android:hint="Please Specify Alternate no 1"
+            android:inputType="phone" />
+
+
+        <TextView
+            android:text="ENTER THE ALTERNATE NUMBER 2 :"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:fontFamily="monospace"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="25dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/alt_contact2"
+            android:layout_marginTop="20dip"
+            android:hint="Please Specify Alternate no 2"
+            android:inputType="phone" />
+
+
+            <Button
+            android:text="UPDATE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:layout_marginTop="30dp"
+            style="@style/Widget.AppCompat.Button"
+            android:background="@color/colorAccent" />
+
+          </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
